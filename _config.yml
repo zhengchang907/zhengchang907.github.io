@@ -1,1 +1,8 @@
-theme: jekyll-theme-cayman
+markdown: CommonMarkGhPages
+
+theme: jekyll-theme-primer
+repository: "zhengchang907/zhengchang907.github.io"
+
+commonmark:
+  options: ["UNSAFE", "SMART", "FOOTNOTES"]
+  extensions: ["strikethrough", "autolink", "table", "tagfilter"]
